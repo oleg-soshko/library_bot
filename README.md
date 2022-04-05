@@ -14,7 +14,7 @@ $ pip install -r requirements.txt
 
 - Run
     ```
-    python main.py
+    python bot.py
     ```
 
 #### 2. On Install Heroku
