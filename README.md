@@ -15,6 +15,7 @@ This project uses a database ```Postgresql```, but you can choose another by cha
     ```
     python bot.py
     ```
+- You can add your books by adding them to the folder ```books``` (to path ```books/<category>/<book.pdf>```).
 ### 2. Bot Commands
 Command | Description
 :--- | :---
