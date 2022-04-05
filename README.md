@@ -24,7 +24,7 @@ Command | Description
 /category | List of all categories.
 /feedback | Give feedback.
 
-#### 3. Deploy on Heroku
+### 3. Deploy on Heroku
     
 - Clone this repository on your local system
     ```
