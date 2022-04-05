@@ -1,8 +1,6 @@
 # Library Telegram Bot
   Telegram bot with books for upgrading soft skills.
-## Installation
-
- #### 1. On Local System
+### 1. Installation
 
 ```sh
 $ git clone https://github.com/feispy/library_bot.git
@@ -10,18 +8,26 @@ $ cd library_bot
 $ pip install -r requirements.txt
 ```
 - Open ```bot.py``` file and change variable ```token``` (create a bot using @BotFather, and get the Telegram API token.).
-- Change ```mode``` variable to "dev" from "prod" and put your Bot token in ```TELEGRAM_ACCESS_TOKEN``` variable.
+- Open ```database.py``` file and change variable ```DATABASE_URL``` (if you need using database).
+This project uses a database ```Postgresql```, but you can choose another by changing the variable ```engine```.
 
 - Run
     ```
     python bot.py
     ```
+### 2. Bot Commands
+Command | Description
+:--- | :---
+/start | Start page.
+/help | List of all commands.
+/category | List of all categories.
+/feedback | Give feedback.
 
-#### 2. On Install Heroku
+#### 3. Deploy on Heroku
     
 - Clone this repository on your local system
     ```
-    git clone https://github.com/1337w0rm/Libgen-Telegram-Bot.git
+    git clone https://github.com/feispy/library_bot.git
     ```
  - Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
  - Login to your account with the below command
@@ -59,3 +65,4 @@ $ pip install -r requirements.txt
     ```
     heroku ps:scale web=1
     ```
+
