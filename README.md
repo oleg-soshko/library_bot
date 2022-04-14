@@ -26,7 +26,8 @@ Command | Description
 
 ### 3. Telegram
 
-    https://t.me/North_Library_bot
-  
+   [Link to Telegram](https://t.me/North_Library_bot)
+
+    
 
  
