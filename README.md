@@ -26,6 +26,7 @@ Command | Description
 
 ### 3. Telegram
 
-    [ааа](https://t.me/North_Library_bot)
+    https://t.me/North_Library_bot
+  
 
  
