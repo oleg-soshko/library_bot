@@ -25,9 +25,7 @@ Command | Description
 /feedback | Give feedback.
 
 ### 3. Telegram
-    
 
-    ```
     https://t.me/North_Library_bot
-    ```
+
  
